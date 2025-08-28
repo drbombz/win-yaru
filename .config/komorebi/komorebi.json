@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.35/schema.json",
+  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 15,
+  "default_container_padding": 10,
+  "border": false,
+  "border_width": 8,
+  "border_offset": -1,
+  "theme": {
+    "palette": "Base16",
+    "name": "Ashes",
+    "unfocused_border": "Base03",
+    "bar_accent": "Base0D"
+  },
+  "transparency": true,
+  "stackbar": {
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300
+    }
+  },
+    "ignore_rules": [
+    {
+      "kind": "Title",
+      "id": "Settings",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Traktor Pro 4.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Notepad.exe",
+      "matching_strategy": "Equals"
+    },
+        {
+      "kind": "Exe",
+      "id": "PotPlayerMini64.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Title",
+      "id": "File Explorer",
+      "matching_strategy": "Contains"
+    },
+        {
+      "kind": "Title",
+      "id": "Krita",
+      "matching_strategy": "Contains"
+    }
+  ],
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Code.exe"
+            }
+          ]
+        },
+        {
+          "name": "II",
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "firefox.exe"
+            }
+          ]
+        },
+        {
+          "name": "III",
+          "layout": "VerticalStack",
+          "workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Traktor Pro 4.exe"
+            }
+          ]
+        },
+        {
+          "name": "IV",
+          "layout": "UltrawideVerticalStack"
+        },
+        {
+          "name": "V",
+          "layout": "Rows"
+        },
+        {
+          "name": "VI",
+          "layout": "Grid"
+        },
+        {
+          "name": "VII",
+          "layout": "RightMainVerticalStack"
+        }
+      ]
+    }
+  ]
+}
