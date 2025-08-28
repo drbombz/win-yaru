@@ -7,54 +7,54 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "multiLinePasteWarning": false,
     "initialCols": 140,
     "initialRows": 35,
-    "keybindings":
+    "keybindings": 
     [
         {
-            "id": "Terminal.CopyToClipboard",
+            "id": null,
             "keys": "ctrl+c"
         },
         {
-            "id": "Terminal.FindText",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "id": "Terminal.PasteFromClipboard",
+            "id": null,
             "keys": "ctrl+v"
         },
         {
-            "id": "Terminal.DuplicatePaneAuto",
+            "id": null,
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": null,
             "keys": "alt+shift+d"
         }
     ],
-    "newTabMenu":
+    "multiLinePasteWarning": false,
+    "newTabMenu": 
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
-            "font":
+            "font": 
             {
                 "face": "MesloLGM Nerd Font"
             }
         },
-        "list":
+        "list": 
         [
             {
                 "antialiasingMode": "aliased",
-                "colorScheme": "Gruvbox",
+                "colorScheme": "Yaru",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
                 "elevate": true,
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "ps7",
-                "opacity": 75
+                "opacity": 76
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -70,7 +70,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#212121",
@@ -94,6 +94,29 @@
             "selectionBackground": "#3C3836",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#2E2E2E",
+            "black": "#4D4D4D",
+            "blue": "#18B6EC",
+            "brightBlack": "#5C5C5C",
+            "brightBlue": "#18B6EC",
+            "brightCyan": "#E95420",
+            "brightGreen": "#3FB350",
+            "brightPurple": "#762572",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#FC9D0F",
+            "cursorColor": "#9B9B9B",
+            "cyan": "#E95420",
+            "foreground": "#C0C0C0",
+            "green": "#3FB350",
+            "name": "Yaru",
+            "purple": "#762572",
+            "red": "#ED3148",
+            "selectionBackground": "#494949",
+            "white": "#CCCCCC",
+            "yellow": "#F89A0F"
         }
     ],
     "showTabsInTitlebar": false,
